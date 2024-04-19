@@ -1,0 +1,29 @@
+.search{
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  .ant-input{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.5);
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    border-radius: 40px 0 0 40px;
+    padding: 0 16px;
+  }
+  .ant-input::placeholder{
+    color: white;
+    font-size: 16px;
+  }
+  .ant-btn{
+    width: 50px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.5);
+    color: white;
+    cursor: pointer;
+  }
+  .ant-btn:hover{
+    color: #1777FF;
+  }
+}

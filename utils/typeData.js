@@ -1,0 +1,30 @@
+const TypeData = [
+    {
+        label:'AI写作工具',
+        value:'1',
+    },
+    {
+        label:'AI图像工具',
+        value:'2',
+        children:[
+            {label:'常用AI图像工具',value:'1'},
+            {label:'AI图片插画生成',value:'2'},
+            {label:'AI图片背景移除',value:'3'},
+            {label:'AI图片无损放大',value:'4'}
+        ]
+    },
+    {label:'AI视频工具',value:'3'},
+    {label:'AI办公工具',value:'4',
+        children:[
+            {label:'AI幻灯片和演示',value:'1'},
+            {label:'AI表格数据处理',value:'2'},
+            {label:'AI文档工具',value:'3'},
+            {label:'AI思维导图',value:'4'}
+        ]
+    },
+    {label:'AI设计工具',value:'5'},
+    {label:'AI对话聊天',value:'6'},
+]
+export  {
+    TypeData
+}

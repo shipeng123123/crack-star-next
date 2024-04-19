@@ -1,0 +1,64 @@
+.Layout{
+  .demo-logo{
+    width: 40px;
+    height: 40px;
+    background: url("../../public/xingqiu.png") center no-repeat;
+    background-size: 100%;
+  }
+  .demo-logo-collapsed{
+    padding: 16px 0;
+  }
+  .demo-logo-vertical{
+    padding: 16px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    .demo-title{
+      white-space: nowrap;
+    }
+    .demo-title{
+      white-space: nowrap;
+    }
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .header{
+    .header-nav{
+      background-color: #001628;
+      color: white;
+    }
+  }
+  .content{
+    flex: 1;
+    overflow-y:auto;
+  }
+  .collapsed-button{
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .login{
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+}
+.ant-modal-content{
+  width: 420px;
+}
+.login-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head-portrait{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

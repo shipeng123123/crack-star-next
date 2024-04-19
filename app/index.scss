@@ -1,0 +1,100 @@
+//全局样式
+.vlb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vlcb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vlc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.df{
+  display: flex;
+}
+.dfcolumn{
+  display: flex;
+  flex-direction: column;
+}
+.dfv{
+  display: flex;
+  align-items: center;
+}
+.dfc{
+  display: flex;
+  justify-content: center;
+}
+.overflow-ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt30{
+  margin-top: 20px;
+}
+.ml15{
+  margin-left: 15px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.fs12{
+  font-size: 12px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+}
+.fs20{
+  font-size: 20px;
+}
+.C6c757d{
+  color: #6c757d;
+}
+.fs12{
+  font-size: 12px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+}
+.fw400{
+  font-weight: 400;
+}
+.fw500{
+  font-weight: 500;
+}
+.ml10{
+  margin-left: 10px;
+}
+.pd12{
+  padding: 12px;
+}
+.pd20{
+  padding: 20px;
+}
+.pdsx12{
+  font-size: 1rem;
+  padding:6px 0;
+}

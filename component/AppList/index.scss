@@ -1,0 +1,36 @@
+.app-list{
+  .title-label{
+    font-size: 1.4rem;
+    margin-top: 12px;
+    margin-bottom: .8rem;
+    color: #555;;
+    font-weight: 500;
+  }
+  .app-card{
+    padding: .8rem;
+    margin: 0 1rem 1rem 0;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    .app-icon{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .app-right{
+      flex: 1;
+      overflow: hidden;
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  .ant-tabs-nav-list{
+    background-color: #E0E0E0;
+    border-radius: 1.5rem;
+  }
+}
