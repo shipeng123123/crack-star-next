@@ -24,6 +24,8 @@ const TypeData = [
     },
     {label:'AI设计工具',value:'5'},
     {label:'AI对话聊天',value:'6'},
+    {label:'AI音频工具',value:'7'},
+    {label:'AI编程工具',value:'8'},
 ]
 export  {
     TypeData

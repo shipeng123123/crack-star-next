@@ -16,9 +16,9 @@ const AppList = ({data})=>{
                         <Tooltip title={v.title}>
                             <div className='app-card'>
                                 <div className='app-icon'>
-                                    {/*{*/}
-                                    {/*    v.icon?<Image width={45} height={45} src={v.icon} alt={v.name}></Image>:null*/}
-                                    {/*}*/}
+                                    {
+                                        v.icon?<Image width={45} height={45} src={v.icon} alt={v.name}></Image>:null
+                                    }
                                 </div>
                                 <div className='app-right'>
                                     <div className='fs16 fw500 overflow-ellipsis'>{v.name}</div>

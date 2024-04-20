@@ -41,32 +41,23 @@ const  DetailPage =async (props)=>{
     }
     return <div className='detail-page pd20'>
         <div className='detail-card'>
-            <Row className='mb40'>
-                <Col span={1}></Col>
-                <Col span={6}>
-                    <div className='detail-img dfc'>
-                        {/*<CusImage url={data.showUrl} alt={data.title}/>*/}
-                        {/*<img src={data.showUrl} style={{width:275,height:154}}/>*/}
-                        <Image width={275} height={154} src={data.showUrl} alt={data.title}></Image>
-                    </div>
-                </Col>
-                <Col span={8}>
-                    <div className='introduce'>
-                        <div className='tag'>{tag}</div>
-                        <h1>{data.name}</h1>
-                        <div className='pdsx12'>{data.title}</div>
-                        <div className='pdsx12'>标签：{tag}</div>
-                        <ToolButton href={data.url}/>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col span={1}></Col>
-                <Col span={22}>
-                    <TextContent text={data.text}/>
-                </Col>
-                <Col span={1}></Col>
-            </Row>
+            <div className='df'>
+                <div className='detail-img dfc'>
+                    {/*<CusImage url={data.showUrl} alt={data.title}/>*/}
+                    {/*<img src={data.showUrl} style={{width:275,height:154}}/>*/}
+                    <Image width={275} height={154} src={data.showUrl} alt={data.title}></Image>
+                </div>
+                <div className='introduce'>
+                    <div className='tag'>{tag}</div>
+                    <h1>{data.name}</h1>
+                    <div className='pdsx12'>{data.title}</div>
+                    <div className='pdsx12'>标签：{tag}</div>
+                    <ToolButton href={data.url}/>
+                </div>
+            </div>
+            <div className='mt30'>
+                <TextContent text={data.text}/>
+            </div>
         </div>
     </div>
 }
